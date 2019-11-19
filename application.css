@@ -1,0 +1,190 @@
+html, body {
+  margin: 0;
+  width: 100%;
+
+  line-height: 1.4;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --light-green: #638e80;
+  --dark-green: #243f2e;
+  --light-grey: #999ca8;
+}
+
+.spaced {
+  margin-top: 2rem;
+}
+
+.big-bottom {
+  padding-bottom: 2rem;
+}
+
+.large {
+  font-size: 1.6rem;
+}
+
+.cushy {
+  padding: 0 4rem 2rem 4rem;
+  line-height: 1.4;
+}
+
+.container {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.container-header {
+  padding: 2rem;
+  font-size: 2rem;
+
+  font-family: 'Karla', sans-serif;
+}
+
+.container-pretty {
+  margin: 0 25%;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.container-text {
+  margin: 0 20%;
+}
+
+.navbar {
+  background-color: var(--dark-green);
+  color: white;
+  padding: 2rem 20%;
+
+  /* overflow: hidden;
+  position: fixed;
+  width: 100%;
+  top: 0; */
+
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title {
+  font-size: 1.8rem;
+}
+
+.navbar-pages {
+  list-style-type: none;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.navbar-pages a {
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+.inactive {
+  color: var(--light-grey);
+}
+
+.active {
+  color: white;
+}
+
+.h-centered {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.v-centered {
+  display: flex;
+  align-items: center;
+}
+
+.row {
+  padding: 0 20%;
+  display: flex;
+}
+
+.block {
+  border-left: 2px solid var(--light-grey);
+  margin: 1rem 20%;
+  padding-left: 1rem;
+}
+
+.vision-header {
+  font-size: 2rem;
+}
+
+.card {
+  margin: 1rem;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+}
+
+.card-body {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 1rem;
+  flex: 1;
+}
+
+.dark-colored {
+  background-color: var(--dark-green);
+  color: white;
+}
+
+.dark-colored a {
+  color: white;
+}
+
+.light-colored {
+  background-color: var(--light-green);
+}
+
+.light-grey {
+  color: white;
+  background-color: var(--light-grey);
+}
+
+.white {
+  background-color: white;
+  color: var(--dark-green);
+}
+
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+img {
+  max-width: 100%;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.split-content {
+  padding: 2rem;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+}
