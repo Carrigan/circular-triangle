@@ -3,6 +3,7 @@ html, body {
   width: 100%;
 
   line-height: 1.4;
+  background-color: var(--white);
 }
 
 body {
@@ -10,14 +11,16 @@ body {
 }
 
 :root {
-  --primary-dark: #243f2e;
-  --primary-light: #dde8b9;
+  --primary-dark: #056571;
+  --primary-light: #056571;
 
-  --secondary-dark: #594e36;
+  --secondary-dark: #ff5a5f;
   --secondary-light: #F7C331;
   
   
-  --neutral-light: #DCC7AA;
+  --neutral-dark: #3c3c3c;
+
+  --white: #f5f5f5;
 }
 
 .spaced {
@@ -57,7 +60,7 @@ body {
 
 .navbar {
   background-color: var(--primary-dark);
-  color: white;
+  color: var(--white);
   padding: 0.5rem;
 
   /* overflow: hidden;
@@ -92,7 +95,7 @@ body {
 }
 
 .active {
-  color: white;
+  color: var(--white);
 }
 
 .h-centered {
@@ -149,7 +152,7 @@ body {
 }
 
 .block {
-  border-left: 2px solid var(--neutral-light);
+  border-left: 2px solid var(--neutral-dark);
   padding-left: 1rem;
 }
 
@@ -178,26 +181,29 @@ body {
   flex: 1;
 }
 
-.dark-colored {
+.dark-primary {
   background-color: var(--primary-dark);
-  color: white;
+  color: var(--white);
 }
 
-.dark-colored a {
-  --secondary-dark: #594e36;
+.dark-primary a {
   color: var(--secondary-light);
 }
 
-.light-colored {
-  background-color: var(--primary-light);
+.dark-secondary {
+  background-color: var(--secondary-dark);
+  color: var(--white);
 }
 
-.light-grey {
-  background-color: var(--neutral-light);
+.dark-grey {
+  color: var(--white);
+  background-color: var(--neutral-dark);
 }
+
+
 
 .white {
-  background-color: white;
+  background-color: var(--white);
   color: var(--primary-dark);
 }
 
@@ -246,7 +252,5 @@ img {
 }
 
 #mc_embed_signup {
-  background: #fff;
   clear: left;
-  font: 14px Helvetica, Arial, sans-serif;
 }
