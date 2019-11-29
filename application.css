@@ -10,9 +10,10 @@ body {
 }
 
 :root {
-  --light-green: #638e80;
-  --dark-green: #243f2e;
-  --light-grey: #999ca8;
+  --light-colored: #F7882F;
+  --dark-colored: #6B7A8F;
+  --theme-second: #F7C331;
+  --light-grey: #DCC7AA;
 }
 
 .spaced {
@@ -51,7 +52,7 @@ body {
 }
 
 .navbar {
-  background-color: var(--dark-green);
+  background-color: var(--dark-colored);
   color: white;
   padding: 0.5rem;
 
@@ -82,7 +83,7 @@ body {
 }
 
 .inactive {
-  color: var(--light-grey);
+  color: var(--theme-second);
 }
 
 .active {
@@ -100,13 +101,13 @@ body {
   align-items: center;
 }
 
-.row {
-  display: flex;
-}
-
 @media only screen and (max-width: 640px) {
   .hide-small {
     display: none !important;
+  }
+
+  .block {
+    margin: 1rem 0;
   }
 }
 
@@ -120,6 +121,7 @@ body {
   }
 
   .row {
+    display: flex;
     padding: 0 20%;
   }
 
@@ -128,7 +130,7 @@ body {
   }
 
   .container-pretty {
-    margin: 0 5%;
+    margin: 0 20%;
     text-align: center;
   }
 
@@ -143,7 +145,6 @@ body {
 
 .block {
   border-left: 2px solid var(--light-grey);
-  margin: 1rem 0;
   padding-left: 1rem;
 }
 
@@ -173,36 +174,39 @@ body {
 }
 
 .dark-colored {
-  background-color: var(--dark-green);
+  background-color: var(--dark-colored);
   color: white;
 }
 
 .dark-colored a {
-  color: white;
+  color: var(--theme-second);
 }
 
 .light-colored {
-  background-color: var(--light-green);
+  background-color: var(--light-colored);
 }
 
 .light-grey {
-  color: white;
   background-color: var(--light-grey);
 }
 
 .white {
   background-color: white;
-  color: var(--dark-green);
+  color: var(--dark-colored);
 }
 
 .footer {
   padding: 1rem 0;
   text-align: center;
-  color: var(--light-grey);
+  font-size: 0.8rem;
 }
 
 img {
   max-width: 100%;
+}
+
+.top-border {
+  border-top: 2px solid var(--light-colored);
 }
 
 .split {
@@ -215,7 +219,24 @@ img {
   padding: 2rem;
 }
 
+.split-durham {
+  background-image: url("/img/durham.jpg");
+  background-repeat: no-repeat;
+  background-position: center 35%;
+  background-size: cover;
+}
+
 .centered {
   align-items: center;
   justify-content: center;
+}
+
+.fill {
+  flex: 1;
+}
+
+#mc_embed_signup {
+  background: #fff;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
 }
