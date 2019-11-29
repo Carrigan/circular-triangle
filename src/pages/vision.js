@@ -10,7 +10,7 @@ import Container from "../components/container";
 export default () => <div>
     <Navbar active="vision" />
 
-    <Container title="Why?">
+    <Container scheme="big-bottom" title="Why?">
         <Row>
             <Card scheme="dark-primary">
                 By 2050, two-thirds of us will live in cities
@@ -26,7 +26,7 @@ export default () => <div>
         </Row>
     </Container>
 
-    <Container title="What if we..." scheme="dark-grey">
+    <Container title="What if we..." scheme="dark-grey big-bottom">
         <Row>
             <Card scheme="white" img="/img/trash.png">
                 Design out waste and pollution from cities?

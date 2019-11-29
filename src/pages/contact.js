@@ -10,7 +10,7 @@ import Container from "../components/container";
 
 export default () => <div>
     <Navbar active="contact" />
-    <Container title="Come Join Us">
+    <Container title="Come Join Us" scheme="big-bottom">
         <Row>
             <Card scheme="dark-primary h-centered" title="Engage">
                 We are seeking diverse leaders to commit 2 - 4 hours per month to connect with other leaders, recruit key stakeholders, and expand our collective thinking
