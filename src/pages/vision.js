@@ -33,11 +33,11 @@ export default () => <div>
             </Card>
 
             <Card scheme="white" img="/img/reuse.png">
-                Design out waste and pollution from cities?
+                Keep products and materials in use in cities and maintain their value?
             </Card>
 
             <Card scheme="white" img="/img/sprout.png">
-                Design out waste and pollution from cities?
+            Regenerate natural systems in and around cities?
             </Card>
         </Row>
     </Container>
@@ -69,9 +69,7 @@ export default () => <div>
 
         <Block title="Circularity Study">
             The study, conducted by global experts, will identify the regions best opportunities to create and lead in a circular economy.
-
         </Block>
     </Container>
-
     <Footer />
 </div>

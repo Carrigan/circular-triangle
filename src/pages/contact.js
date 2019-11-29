@@ -21,7 +21,7 @@ export default () => <div>
             </Card>
 
             <Card scheme="dark-primary h-centered" title="Expand">
-                Local companies will accelerate the movement and support the transition to a circular economy with tax-deductible sponsorship of a community conference and learning series
+                Organizations and individuals will accelerate the movement and support the transition to a circular economy with tax-deductible sponsorship of a community conference and learning series
             </Card>
         </Row>
     </Container>
