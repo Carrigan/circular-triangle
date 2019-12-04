@@ -68,7 +68,7 @@ export default () => <div>
         </Block>
 
         <Block title="Circularity Study">
-            The study, conducted by global experts, will identify the regions best opportunities to create and lead in a circular economy.
+            The study, conducted by global experts, will identify the region's best opportunities to create and lead in a circular economy.
         </Block>
     </Container>
     <Footer />
