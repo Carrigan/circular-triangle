@@ -10,24 +10,9 @@ import Container from "../components/container";
 
 export default () => <div>
     <Navbar active="contact" />
-    <Container title="Come Join Us" scheme="big-bottom">
-        <Row>
-            <Card scheme="dark-primary h-centered" title="Engage">
-                We are seeking diverse leaders to commit 2 - 4 hours per month to connect with other leaders, recruit key stakeholders, and expand our collective thinking
-            </Card>
-
-            <Card scheme="dark-primary h-centered" title="Experience">
-                Join community leaders in an immersive trip to The Netherlands where you will experience circular economy in practice from cities, to buildings, to products and translate these learnings to Durham
-            </Card>
-
-            <Card scheme="dark-primary h-centered" title="Expand">
-                Organizations and individuals will accelerate the movement and support the transition to a circular economy with tax-deductible sponsorship of a community conference and learning series
-            </Card>
-        </Row>
-    </Container>
 
     <Banner color="dark-grey" title="To get started">
-        Email Jennifer Hill at jennifer@circulartriangle.org or join our mailing list below.
+        Email Jennifer Hill at jennifer@circulartriangle.org, join our mailing list below, or consider making <Link to="donate">a donation</Link>.
     </Banner>
 
     <Mailchimp />

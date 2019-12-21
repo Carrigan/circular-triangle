@@ -13,6 +13,11 @@ export function Navbar(props) {
                 <Link to="/" className={ props.active == "home" ? "active" : "inactive" }>Home</Link>
                 <Link to="/vision" className={ props.active == "vision" ? "active" : "inactive" }>Vision</Link>
                 <Link to="/contact" className={ props.active == "contact" ? "active" : "inactive" }>Get Involved</Link>
+                <Link to="/donate">
+                    <span className={ props.active == "donate" ? "donate-active" : "donate-inactive" }>
+                        Donate
+                    </span>
+                </Link>
             </div>
         </div>
     )

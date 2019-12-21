@@ -46,8 +46,8 @@ export default () => <div>
     </div>
 
     <Banner color={"dark-primary"} title={"Come Join Us"}>
-            In order to achieve all of this, we need your help. <br />
-            Please visit our <Link to="/vision">Vision</Link> page to learn more and then <Link to="/contact">Get Involved</Link>!
+        In order to achieve all of this, we need your help. <br />
+        Please visit our <Link to="/vision">Vision</Link> page to learn more and then <Link to="/contact">Get Involved</Link>!
     </Banner>
 
     <Footer />
