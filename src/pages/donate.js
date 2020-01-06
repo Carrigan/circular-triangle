@@ -31,10 +31,9 @@ export default () => <div>
       </div>
       
       <div className="container-text">
-        Circular Triangle<br />
-        112 Broadway Street<br />
-        Suite B<br />
-        Durham, NC, 27701
+        Upstream Works<br />
+        106 Drayton Court<br />
+        Chapel Hill, NC 27516
       </div>
     </Container>
 
