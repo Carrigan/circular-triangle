@@ -10,6 +10,10 @@ import Container from "../components/container";
 export default () => <div>
     <Navbar active="vision" />
 
+    <Banner title="Our Vision" color="dark-grey">
+        We envision a zero-waste Triangle with a clean environment and strong local economy. With purpose-driven circular strategies, policies, and programs designed to regenerate urban and natural systems, the Triangle is a replicable model for regional circularity around the United States.
+    </Banner>
+
     <Container scheme="big-bottom" title="Why?">
         <Row>
             <Card scheme="dark-primary">
@@ -41,35 +45,6 @@ export default () => <div>
             </Card>
         </Row>
     </Container>
-
-    <Banner title="Our Vision" color="dark-primary">
-        With purpose-driven circular strategies, policies, and programs designed to regenerate urban and natural systems, the Triangle is a replicable model for mid-sized regions around the world.
-        We identify and implement circular solutions regionally that lead to a cleaner environment and inclusive economy. The result is a resilient and equitable community.
-    </Banner>
-
-    <Banner title="What We're Doing" color="dark-grey" />
-
-    <Container>
-        <Block title="Further Discussions with Experts">
-            Invite leading thinkers in circular design, architecture, agriculture, and construction for 1:1 visits for deeper
-            exploration. Includes IDEO, Gehl, Metabolic, Bill McDonough.
-        </Block>
-
-        <Block title="Community Engagement">
-            A conference and learning series will create a shared vision, attract global leaders to highlight best practices,
-            share study results to ground the discussion in reality, and run workshops to create a roadmap for a Circular
-            Triangle.
-        </Block>
-
-        <Block title="Experiential Tour - The Netherlands">
-            This in-country experience will allow leaders to explore the circular economy with specific operational examples
-            at the municipal, building, and product levels. We will create a foundation for dialogue and discussion, as well
-            as help translating the experience back to the unique local context of Durham.
-        </Block>
-
-        <Block title="Circularity Study">
-            The study, conducted by global experts, will identify the region's best opportunities to create and lead in a circular economy.
-        </Block>
-    </Container>
+    
     <Footer />
 </div>

@@ -8,8 +8,8 @@ import Title from "../components/title";
 export default () => <div>
     <Navbar active="home" />
 
-    <Banner title={"Who We Are"}>
-        Circular Triangle is a cross-industry, interdisciplinary coalition unlocking the potential of a circular economy in the Triangle. We do this by bringing together leaders across industries, government, and community to create a shared vision for circular economy initiatives and advocating for policies and practices to foster a more circular economy.
+    <Banner title={"Mission"}>
+        Circular Triangle inspires and enables the transition to a local circular economy in the Triangle through advocacy, education, and cross-sector collaboration, creating a cleaner environment and resilient communities.
     </Banner>
 
     <div class="container spaced flex top-border">
