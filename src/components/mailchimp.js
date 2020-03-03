@@ -21,17 +21,17 @@ export default class Mailchimp extends React.Component {
                                 <div className="indicates-required"><span className="asterisk">*</span> indicates required</div>
                                     <div className="mc-field-group">
                                         <label for="mce-EMAIL">Email Address <span className="asterisk">*</span></label>
-                                        <input type="email" value="" name="EMAIL" className="required email" id="mce-EMAIL" value={ this.state.emailAddress } onChange={ event => this.setState({ emailAddress: event.target.value })} />
+                                        <input type="email" name="EMAIL" className="required email" id="mce-EMAIL" value={ this.state.emailAddress } onChange={ event => this.setState({ emailAddress: event.target.value })} />
                                     </div>
 
                                     <div className="mc-field-group">
                                         <label for="mce-FNAME">First Name </label>
-                                        <input type="text" value="" name="FNAME" className="" id="mce-FNAME" value={ this.state.firstName } onChange={ event => this.setState({ firstName: event.target.value })}/>
+                                        <input type="text" name="FNAME" className="" id="mce-FNAME" value={ this.state.firstName } onChange={ event => this.setState({ firstName: event.target.value })}/>
                                     </div>
 
                                     <div className="mc-field-group">
                                         <label for="mce-LNAME">Last Name </label>
-                                        <input type="text" value="" name="LNAME" className="" id="mce-LNAME" value={ this.state.lastName } onChange={ event => this.setState({ lastName: event.target.value })}/>
+                                        <input type="text" name="LNAME" className="" id="mce-LNAME" value={ this.state.lastName } onChange={ event => this.setState({ lastName: event.target.value })}/>
                                     </div>
 
                                     <div id="mce-responses" className="clear">

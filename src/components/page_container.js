@@ -1,5 +1,6 @@
 import React from "react"
 import { Navbar } from "./navbar"
+import Footer from "./footer"
 import SEO from "./seo"
 
 export default function PageContainer(props) {
@@ -7,7 +8,10 @@ export default function PageContainer(props) {
       <div>
         <SEO />
         <Navbar active={props.active} />
+        
         { props.children }
+        
+        <Footer />
       </div>
     )
 }

@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { Navbar } from "../components/navbar";
 import Banner from "../components/banner";
-import Footer from "../components/footer";
 import Title from "../components/title";
 import PageContainer from "../components/page_container";
 
@@ -46,7 +44,7 @@ export default () =>
             </div>
 
             <div class="split dark-primary centered hide-small">
-                <img src="/img/nc.png" width="400" height="400" />
+                <img src="/img/nc.png" width="400" height="400" alt="North Carolina Map" />
             </div>
         </div>
 
@@ -71,6 +69,4 @@ export default () =>
             In order to achieve all of this, we need your help. <br />
             Please visit our <Link to="/vision">Vision</Link> page to learn more and then <Link to="/contact">Get Involved</Link>!
         </Banner>
-
-        <Footer />
     </PageContainer>
