@@ -17,7 +17,7 @@ export default () => <div>
       Donations are tax-deductible as allowed by law.
     </div>
     
-    <Container scheme="dark-grey t-centered donate-box">        
+    <Container scheme="dark-grey t-centered donate-box">
         <div className="container-text medium big-bottom">
           To donate, either click the link below and select "Circular Triangle" from the "Use this donation for" dropdown or mail your check using the instructions below.
         </div>
@@ -27,11 +27,12 @@ export default () => <div>
     
     <Container scheme="t-centered donate-box">
       <div className="container-text medium big-bottom">
-        Note that Paypal takes a percentage of every online donation. To maximize your giving, please consider sending a check. Checks should be made out to "Upstream Works" with the memo line "Circular Triangle". Checks can be mailed to:
+        Note that Paypal takes a percentage of every online donation. To maximize your giving, please consider sending a check. Checks should be made out to "Upstream Works" with the memo line "Circular Triangle" and mailed to:
       </div>
       
       <div className="container-text">
         Upstream Works<br />
+        ATTN: Circular Triangle<br />
         106 Drayton Court<br />
         Chapel Hill, NC 27516
       </div>

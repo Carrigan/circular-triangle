@@ -14,13 +14,33 @@ export default () => <div>
     
   <Container title="Construction and demolition" scheme="big-bottom">
     <Row>
-      Construction and demolition waste is often one of the largest, heaviest, and most environmentally damaging waste streams in cities. Beyond the sheer volume of waste generated in this sector, the materials being wasted have environmental impacts such as greenhouse gas emissions or toxification of air and water. However, this waste stream also represents considerable financial value. For example, the consulting firm Metabolic estimates that the market value of the construction and demolition materials going to waste every year in Charlotte, NC is ~$15 million. If the Triangle is aiming to reduce its carbon footprint or to reach zero waste, we need to eliminate construction and demolition waste. Circular Triangle is working towards this goal by convening stakeholders in the construction and demolition industries across the Triangle to identify opportunities to close the loop on this sector.
+      Construction and demolition waste make up one of
+      the largest, heaviest, and most environmentally damaging
+      waste streams in U.S. cities. Beyond the sheer volume of waste
+      generated in this sector, the materials being wasted have
+      environmental impacts such as greenhouse gas emissions or
+      toxification of air and water. However, this waste stream also
+      represents considerable financial value. For example, the
+      consulting firm Metabolic estimates that the market value of
+      the construction and demolition materials going to waste every
+      year in Charlotte, NC is around $15 million. If the Triangle is
+      aiming to reduce its carbon footprint and reach zero
+      waste, we need to eliminate construction and demolition
+      waste. Circular Triangle is working towards this goal by
+      convening stakeholders in the construction and demolition
+      industries across the Triangle to identify opportunities to close
+      the loop on this sector.
     </Row>
   </Container>
   
   <Container title="Community education" scheme="big-bottom">
     <Row>
-      Circular Triangle is working to raise community awareness of circular economy, why it is important, and the benefits of circularity for the Triangle. We are doing this through monthly networking meetups, community meetings, educational workshops, partnering with UNC on a conference, and meeting directly with industries that could benefit.
+      Circular Triangle is working to raise community awareness of
+      circular economy, why it is important, and the benefits of
+      circularity for the Triangle. We are doing this through monthly
+      networking meetups, community meetings, educational
+      workshops, partnering with UNC on a conference, and meeting
+      directly with industry leaders.
     </Row>
   </Container>
   

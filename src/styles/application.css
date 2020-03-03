@@ -274,6 +274,15 @@ img {
   background-size: cover;
 }
 
+.split-economy {
+  background-color: white;
+  background-image: url("/img/economy.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+
 .centered {
   align-items: center;
   justify-content: center;

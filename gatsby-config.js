@@ -18,4 +18,11 @@ module.exports = {
       }
     },
   ],
+  siteMetadata: {
+    title: "Circular Triangle",
+    titleTemplate: "%s",
+    description: "Circular Triangle is a non-profit organization that inspires and enables the transition to a local circular economy in the Triangle through advocacy, education, and cross-sector collaboration, creating a cleaner environment and resilient communities.",
+    url: "https://circulartriangle.org",
+    image: "/img/logo.png"
+  }
 }

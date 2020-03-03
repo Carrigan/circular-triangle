@@ -11,7 +11,11 @@ export default () => <div>
     <Navbar active="vision" />
 
     <Banner title="Our Vision" color="dark-grey">
-        We envision a zero-waste Triangle with a clean environment and strong local economy. With purpose-driven circular strategies, policies, and programs designed to regenerate urban and natural systems, the Triangle is a replicable model for regional circularity around the United States.
+        We envision a zero-waste Triangle with a clean environment and strong
+        local economy. With purpose-driven circular strategies, policies, and
+        programs designed to regenerate urban and natural systems, the
+        Triangle is a replicable model for regional circularity in urban areas 
+        around the United States.
     </Banner>
 
     <Container scheme="big-bottom" title="Why?">
