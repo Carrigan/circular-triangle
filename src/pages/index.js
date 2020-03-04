@@ -17,6 +17,7 @@ export default () =>
 
             <div class="split">
                 <div class="split-content">
+                    <Title>What is a circular economy?</Title>
                     <p>
                         The economy we currently live in is one that involves extracting resources from the Earth, manufacturing products, and throwing them away. This is a linear economy. The recycling economy tries to break those products down and make new products. But this often results in prolonging its inevitable destination in the landfill, because only 9% of recyclable materials are actually recycled, and those materials can only be recycled so many times before they lose their integrity and value.
                     </p>

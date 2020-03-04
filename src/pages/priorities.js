@@ -11,22 +11,21 @@ export default () =>
       
     <Container title="Construction and demolition" scheme="big-bottom">
       <Row>
-        Construction and demolition waste make up one of
-        the largest, heaviest, and most environmentally damaging
-        waste streams in U.S. cities. Beyond the sheer volume of waste
-        generated in this sector, the materials being wasted have
-        environmental impacts such as greenhouse gas emissions or
-        toxification of air and water. However, this waste stream also
-        represents considerable financial value. For example, the
-        consulting firm Metabolic estimates that the market value of
-        the construction and demolition materials going to waste every
-        year in Charlotte, NC is around $15 million. If the Triangle is
-        aiming to reduce its carbon footprint and reach zero
-        waste, we need to eliminate construction and demolition
-        waste. Circular Triangle is working towards this goal by
-        convening stakeholders in the construction and demolition
-        industries across the Triangle to identify opportunities to close
-        the loop on this sector.
+        <p>
+      Construction and demolition waste is one of the largest, heaviest, and most
+      environmentally damaging waste streams in the Triangle. Beyond the sheer volume of
+      waste generated in this sector, the materials being wasted have environmental 
+      impacts such as greenhouse gas emissions or toxification of air and water. However,
+      this waste stream also represents considerable financial value. For example, the 
+      consulting firm Metabolic estimates that the market value of the construction and 
+      demolition materials going to waste every year in <a href="https://www.metabolic.nl/projects/circular-charlotte/">Charlotte, NC</a> is around $15 million. 
+      If the Triangle is aiming to reduce its carbon footprint and achieve zero waste, we 
+      need to eliminate this waste stream by bringing in industry best practices for reusing
+      materials and using circular design principles in the building process. Circular 
+      Triangle is eliminating waste in the construction and demolition sector by convening 
+      stakeholders across the Triangle to identify opportunities to close the loop in this 
+      sector and bringing best practices to the Triangle.
+      </p>
       </Row>
     </Container>
     

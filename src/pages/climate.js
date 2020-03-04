@@ -28,14 +28,14 @@ export default () =>
           
         <Row>
           Source: Ellen MacArthur Foundation,
-          <a href="https://www.ellenmacarthurfoundation.org/publications"> Completing the Picture: How the Circular Economy Tackles Climate Change (2019)</a>
+          <a href="https://www.ellenmacarthurfoundation.org/publications/completing-the-picture-climate-change"> Completing the Picture: How the Circular Economy Tackles Climate Change (2019)</a>
         </Row>
       </Container>
       
       <Container scheme="">
         <Row>
           <ul>
-            <li>Reaching carbon neutrality will require a systemic change in how the Triangle and its economy operates. Efforts that focus on only one factor, such as energy efficiency, are not enough to meet the full ambitions of this target. An upcoming report from the UN International Resource Panel highlights how climate policies that neglect the circular economy are missing out on one of the biggest sources of greenhouse gas emissions.</li>
+            <li>Reaching carbon neutrality will require a systemic change in how the Triangle and its economy operates. Efforts that focus on only one factor, such as energy efficiency, are not enough to meet the full ambitions of this target. An <a href="https://resourcepanel.org/reports/resource-efficiency-and-climate-change">upcoming report from the UN International Resource Panel</a> highlights how climate policies that neglect the circular economy are missing out on one of the biggest sources of greenhouse gas emissions.</li>
             <li>The conclusion from the UN International Resource Panel’s report is that “it is time to look beyond energy efficiency to reduce the global carbon footprint.” In order to effectively slash their carbon footprints and prepare for the effects of climate change, cities need to integrate circular economy principles into their climate action plans, measure the consumption-based greenhouse emissions, and reduce their footprint.</li>
           </ul>
         </Row>
