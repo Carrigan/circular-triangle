@@ -7,7 +7,7 @@ import PageContainer from "../components/page_container";
 export default () =>
     <PageContainer active="home">
         <Banner color={"dark-grey"} title={"Special Report"} >
-            <Link to="/assets/ppe_sterilization_for_reuse.pdf">SPECIAL REPORT from Circular Triangle, Don't Waste Durham, and Sustainable Duke on circular solutions to the PPE shortage</Link>
+            <a href="/assets/ppe_sterilization_for_reuse.pdf">SPECIAL REPORT from Circular Triangle, Don't Waste Durham, and Sustainable Duke on circular solutions to the PPE shortage</a>
         </Banner>
 
         <Banner title={"Mission"}>
