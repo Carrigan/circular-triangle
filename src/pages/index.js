@@ -4,8 +4,12 @@ import Banner from "../components/banner";
 import Title from "../components/title";
 import PageContainer from "../components/page_container";
 
-export default () => 
+export default () =>
     <PageContainer active="home">
+        <Banner color={"dark-grey"} title={"Special Report"} >
+            <Link to="/assets/ppe_sterilization_for_reuse.pdf">SPECIAL REPORT from Circular Triangle, Don't Waste Durham, and Sustainable Duke on circular solutions to the PPE shortage</Link>
+        </Banner>
+
         <Banner title={"Mission"}>
             Circular Triangle is a non-profit organization that inspires and enables the transition to a local circular economy in the Triangle through advocacy, education, and cross-sector collaboration, creating a cleaner environment and resilient communities.
         </Banner>
@@ -27,7 +31,7 @@ export default () =>
                     </p>
 
                     <p>
-                        A circular economy is one that is not based on resource consumption and single-use, but one that designs waste out – keeping products, components, and materials circulating in the local economy. 
+                        A circular economy is one that is not based on resource consumption and single-use, but one that designs waste out – keeping products, components, and materials circulating in the local economy.
                     </p>
                 </div>
             </div>
