@@ -14,6 +14,7 @@ export function Navbar(props) {
                 <Link to="/vision" className={ props.active === "vision" ? "active" : "inactive" }>Vision</Link>
                 <Link to="/climate" className={ props.active === "climate" ? "active" : "inactive" }>Climate Change</Link>
                 <Link to="/priorities" className={ props.active === "priorities" ? "active" : "inactive" }>Priorities</Link>
+                <Link to="/events" className={ props.active === "events" ? "active" : "inactive" }>Events</Link>
                 <Link to="/contact" className={ props.active === "contact" ? "active" : "inactive" }>Get Involved</Link>
                 <Link to="/donate">
                     <span className={ props.active === "donate" ? "donate-link donate-active" : "donate-link donate-inactive" }>

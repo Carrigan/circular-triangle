@@ -16,8 +16,8 @@ body {
 
   --secondary-dark: #ff5a5f;
   --secondary-light: #F7C331;
-  
-  
+
+
   --neutral-dark: #3c3c3c;
 
   --white: #f5f5f5;
@@ -103,11 +103,11 @@ body {
   .navbar-title {
     justify-content: center;
   }
-  
+
   .navbar-pages {
     text-align: center;
   }
-  
+
   .donate-link {
     margin-top: 10px;
     display: block;
@@ -162,29 +162,29 @@ body {
   .navbar {
     padding: 1rem 20%;
   }
-  
+
   .cushy {
     padding: 0 4rem 2rem 4rem;
     line-height: 1.4;
-  }  
-  
+  }
+
   .donate-active {
     border-radius: 1em;
   }
-  
+
   .donate-inactive {
     border-radius: 1em;
   }
 }
 
 .donate-active {
-  background-color: white;  
+  background-color: white;
   color: var(--neutral-dark);
   padding: 0.6em 0.6em 0.4em 0.6em;
 }
 
 .donate-inactive {
-  background-color: var(--secondary-light); 
+  background-color: var(--secondary-light);
   color: var(--neutral-dark);
   padding: 0.6em 0.6em 0.4em 0.6em;
 }
@@ -318,4 +318,8 @@ img {
 
 .medium {
   font-size: 1.4em;
+}
+
+.calendar-container {
+  margin-top: 2em;
 }
